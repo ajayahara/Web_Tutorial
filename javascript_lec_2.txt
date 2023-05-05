@@ -1,0 +1,15 @@
+// Introduction to Javascript;
+-Variables:-
+    Variables are named containers for storing data(storing data values).
+-How to declare  a variable:-
+    You can declare a variable by writing 
+        let/var/const variable_name=variable_value;
+-How to print the value stored in any variable:-
+    You can declare a variable by writing 
+        console.log(variable_name1,variable_name2,variable_name3,....);
+-Rules of naming a variable:-
+    i.Variable name should start with letter A-Z or a-z or underscore(_) or dollar sign($).
+    ii.After the 1st letter ,you can use numbers as well as letters ,underscore or dollar sign.
+    iii.Don't use any reserved key word.
+        You can find all the reserved key word from the link below.
+    iv.There should be no space or hipen(-) symbol inside the variable name. 

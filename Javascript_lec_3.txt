@@ -1,0 +1,41 @@
+//Data Types In Javascript
+
+-There are seven types of data types in Javascript.
+    1.String.
+    2.Number.
+    3.Bigint.
+    4.Boolean.
+    5.Undefined.
+    6.Null.
+    7.Symbol.
+    8.Object.
+1.String:-
+    It is used to store a sequence of characters used to represent text.
+    Syntax:-let/var/const variable_name="Your text";
+    Ex:-
+        let name="Ajaya";
+        console.log(name);
+        let num="22";
+        console.log(num)
+        var random="Absolute2 Extra";
+2.Number:-
+    It is used to store any kind of numbers.
+    Syntax:-let/var/const variable_name=numeric_value;
+    Ex:-
+        var num=100;
+        console.log(num);
+        let per=30.24;
+        console.log(per);
+3.Boolean:-
+    It is used to store any boolean type i.e. true ,false.
+    Syntax:-let/var/const variable_name=true/false;
+    Ex:-
+        let married=true;
+        var voter=false;
+        console.log(married,voter)
+-Note:-
+    How to check data type of a variable.
+    Syntax:- console.log(type of(variable_name));
+    Ex:-
+        let a=23;
+        console.log(type of(a))---->Boolean;

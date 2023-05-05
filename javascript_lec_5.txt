@@ -1,0 +1,54 @@
+//Conditional Statement;
+-Conditional Statement are used to decide the flow of execution based on different types of condition.
+-If the condition is true  you can perform one action and if the condition is false you can perform anouther action.
+-by the help of the conditional statement we can control the flow of our code.
+-Basically,Conditional statement are based on Comparision.If the Comparision is true it will execute true block else execute false block.
+//Different Types Of Conditional Statement
+    There are mainly three types of conditional statement in Javascript.
+    1.if Statement;
+    2.if...else Statement;
+    3.if...else if...else Statement;
+1.if Statement:-
+    It is to specify a block of code to be executed if the condition us true.
+    Syntax:-if(condition){  <------
+        statement block            |
+        ...............            |----->Block
+        ...............            |
+    }                       <------
+
+    a.if statement with boolean value:-
+        Ex-1:-
+            console.log("Code Start");
+            if(true){
+                console.log("Inside The Code");
+            }
+            console.log("Code End");
+            Output:-
+                "Code Start"
+                "Inside The Code"
+                "Code End " 
+        Ex-2:-
+            console.log("Code Start");
+            if(false){
+                console.log("Inside The Code");
+            }
+            console.log("Code End");
+            Output:-
+                "Code Start"
+                "Code End "  
+    b.if statement with a condition:-
+        Ex-1:-
+            if(5>3){
+                console.log("Inside The Code");
+            } 
+            Output:-
+                "Inside The Code"
+            Explanation:Since 5>3 return true the code inside the block will be executed.
+        Ex-2:-
+            if(5>6){
+                console.log("Inside The Code");
+            } 
+            Output:-
+                
+            Explanation:Since 5>6 return false the code inside the block will not be executed.
+             
